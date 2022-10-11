@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: magenta;
+  padding-bottom: 25px;
+}
+
+.container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container .row {
+  flex-basis: calc(20% - 10px);
+  border: 1px solid saddlebrown;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: transform 0.7s;
+}
+
+.container .row:hover {
+  transform: scale(1.5);
+  background-color: black;
+  color: white;
+}
+

@@ -1,1 +1,15 @@
-//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: beige
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+
+}
+@import './home.scss';
+@import './show.scss';
