@@ -5,7 +5,10 @@
 }
 
 html {
-  background-color: beige;
+  background: rgb(241, 241, 241);
+  background: linear-gradient(0deg, rgb(232, 220, 220) 0%, rgb(186, 120, 41) 100%);
+  font-family: "Silkscreen", cursive;
+  height: 100vh;
 }
 
 a {
@@ -14,7 +17,7 @@ a {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: bisque;
   padding: 25px;
@@ -40,15 +43,60 @@ a {
   text-align: center;
   border-radius: 5px;
   margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  transition: transform 0.7s;
+  transition: transform 0.5s;
 }
 
 .container .row:hover {
   transform: scale(1.5);
   background-color: black;
+  color: white;
+}
+
+.container .row a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.back__button {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+}
+
+.back__button:hover {
+  color: blue;
+}
+
+.container__film {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 25px;
+  border: 5px dotted black;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.container__film .original__title {
+  font-size: 3rem;
+  color: darkmagenta;
+}
+
+.container__film .title__film {
+  color: rgb(101, 17, 143);
+  font-size: 2rem;
+}
+
+.container__film .vote__film {
+  font-size: 1rem;
+  color: blueviolet;
+  text-align: end;
+}
+
+.container__film p:hover {
+  cursor: pointer;
   color: white;
 }
 

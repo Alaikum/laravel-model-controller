@@ -14,8 +14,8 @@
                         <h2>
                             {{ $item->title }}
                         </h2>
+                        <p>{{ $item->vote }}</p>
                     </a>
-                    <p>{{ $item->vote }}</p>
                 </div>
             @endforeach
         </div>

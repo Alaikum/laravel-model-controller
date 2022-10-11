@@ -1,0 +1,43 @@
+.back__button {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+.container__film {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 25px;
+    border: 5px dotted black;
+    text-align: center;
+    font-size: 1.25rem;
+
+
+    .original__title {
+        font-size: 3rem;
+        color: darkmagenta;
+    }
+
+    .title__film {
+        color: rgb(101, 17, 143);
+        font-size: 2rem;
+    }
+
+    .vote__film {
+        font-size: 1rem;
+        color: blueviolet;
+        text-align: end;
+
+    }
+
+    p:hover {
+        cursor: pointer;
+        color: white;
+    }
+
+}
